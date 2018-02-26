@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NWT EXERCISE</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		#sp {
+			font-family:DigifaceWide;
+			font-size:50px;
+			color: green;
+			animation-name: textBlink;
+				animation-duration: 5s;
+				animation-iteration-count:infinite;
+				}
+				@keyframes textBlink{
+					0%{color:green;}
+					25%{color:blue;}
+					50%{color:pink;}
+					75%{color:purple;}
+					100%{color:pitch;}
+				}
+		}
+		h2 {
+			text-decoration:bold;
+			text-align:center;
+			margin: .67em 0;
+			font-size: 2em;
+			font-family: Arial;
+			font-weight:bold;
+			background-color:red;
+			margin-bottom:50px;
+		}
+		footer {
+			display:block;
+			padding: 0px;
+			margin:0px;
+			background-color: blue
+		}
+		
+		a{
+			font-family:verdana;
+			font-weight:bold;
+			color:solid white;
+		}
+		
+		.navbar {
+		  background-color:blue;
+		  border:3px solid white;
+		  border-radius:0;
+		}
+		img {
+			animation-name: imageBlink;
+			animation-duration: 5s;
+			animation-iteration-count:infinite;
+			}
+			@keyframes imageBlink{
+				0%{color:green;}
+				25%{color:blue;}
+				50%{color:pink;}
+				75%{color:purple;}
+				100%{color:pitch;}
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron">
+		<div class="container text-center">
+			<h1>WUMIROSE <span id="sp">DIGITAL</span> WORLD</h1>
+			<p><img src="Images/1.png" style="width:50px" "img-position:left">Coding is Fun, once u are in love with a Programming Language</p>
+		</div>
+	</div>		
+	<nav class="navbar navbar-fixed navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				 <button type="button" class="navbar-toggle" data-toggle="collapse" datatarget="#myNavbar">
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 <span class="icon-bar"></span>
+				 </button>
+				 <a class="navbar-brand" href="#">Menu</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-left">
+						<a class="navbar-brand" href="#"><img src="Images/BG87.jpg" style="width:30px; height:100%" "img-position:center"></a>
+						<li class="active"><a href="">HOME</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-center">
+						<li style="background-color:green; border:10px solid white; margin-left:20px"><a href="#Register"> | Fresh Enrolment |</a></li>
+						<li style="background-color:purple; border:10px solid white; margin-left:20px"><a href=""> | Graduate Testimonies | </a></li>
+						<li style="background-color:black; border:10px solid white; margin-left:20px"><a href=""> | Tutors' Corner |</a></li>				
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="./about.html">| ABOUT |</a></li>
+						<li><a href="#Profile">| Contact Us |</a></li>
+					</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container>
+		<div class="container">
+			<div class="col-sm-2 sidenav">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Follow Us</div>
+					<div class="panel-body">
+					<p> Twitter: <a href="https://www.twitter.com/wumirosey" alt="Twitter Handle"><img src="images/twitter.png"></a></p></br>
+					<p> Facebook: <a href="https://www.facebook.com/wumirose" alt="Facebook Id"><img src="images/fbk.png"></a></p></br>
+					<p> Email: <a href="https://www.gmail.com/wumirose" alt="Email Us"><img src="images/email.png"></a></p></br>
+					<p> Google+: <a href="https://www.gmail.com/wumirose" alt="Google Plus"><img src="images/gplus.png"></a></p></br>
+					<p> YouTube: <a href="https://www.youtube.com/wumirose" alt="YouTube Channel"><img src="images/youtube.png"></a></p></br>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 ">
+					<img class="img img-responsive" src="./Images/xp1.jpg" "img image-circle" "img-height:100%">
+				</div>
+				
+				<div class="col-sm-6" id="Register">
+					<p> 
+						<form>
+						<p> FullName:
+							<input type="text" class="form-control" size="100" placeholder="Enter Your fullname"></input>
+						</p>
+						</form>
+						<form>E-mail Address:
+							<input type="email" class="form-control" size="100" placeholder="Email Address">
+						</form>
+						<form>Residential Address:
+							<input type="text" class="form-control" size="50" placeholder="Enter Your Residential Address"></input>
+						</form>
+						<form>Program of Study:
+							<select type="menuitem" placeholder="Select a program">
+							<option><img src="images/py.jpg">Python</option>
+							<option>Ruby</option>
+							<option><img src="images/java.jpg">Java</option>
+							<option><img src="images/visu.png">Visual Studio</option>
+							<option>HTML</option>
+							<option>XML</option>
+							</select>
+						</form>
+						<form class="form-inline">Residential Address:
+							<input type="text" class="form-control" size="50" placeholder="Enter Your Residential Address"></input>
+						</form>
+						<button type="button" class="btn btn-success">Submit</button>
+					</p>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<p class="text-right" >Give us feedback<input type="message-box" placeholder="share your experience"></p>
+	</div></br>
+
+	<footer class="container-fluid text-center" id="Profile">
+	 <p>wumirose <span id="sp" style="font-size:10px; text-weight:bold; margin:0px; padding:0px"> DIGITAL </span> World   |©  2018</p>
+	 <p>08012345678</p>
+	</footer>
+</body>
+</html>
